@@ -1,0 +1,36 @@
+header.Header .img {
+
+	float: left;
+
+}
+
+h1.Name {
+
+	position: relative;
+	left: 64px;
+}
+
+div.Contact {
+
+	width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+
+};
+
+.Name_And_Contact {
+
+	width: 400px;
+    padding: 20px;
+    overflow: hidden;
+
+}
+
+.Experience {
+
+	margin-top: 200px;
+    overflow: hidden;
+
+}
+
+
