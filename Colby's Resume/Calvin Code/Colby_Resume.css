@@ -1,35 +1,57 @@
-header.Header .img {
+body {
 
-	float: left;
+	background-color: #D8D8D8;
+	font-family: sans-serif;
+	color: #240B3B;
 
 }
 
-h1.Name {
+.Header img {
 
-	position: relative;
-	left: 64px;
+	border: 2px solid;
+    border-radius: 10px;
+
 }
-
-div.Contact {
-
-	width: 175px;
-    margin-left: auto;
-    margin-right: auto;
-
-};
 
 .Name_And_Contact {
 
-	width: 400px;
-    padding: 20px;
-    overflow: hidden;
+	position: relative;
+	margin-left: 32%;
+	margin-top: -24%;
 
 }
 
-.Experience {
+.Background {
 
-	margin-top: 200px;
-    overflow: hidden;
+	position: absolute;
+    right: 15%;
+	opacity: 0.15;
+
+}
+
+.Resume_Body {
+
+	position: relative;
+	margin-top: 15%;
+
+}
+
+.Resume_Body h2{
+
+	border-bottom: solid;
+
+}
+
+.Resume_Body p {
+
+	font-weight: bold;
+
+
+}
+
+.Resume_Body p+ul {
+
+	margin-top: -10px;
 
 }
 
