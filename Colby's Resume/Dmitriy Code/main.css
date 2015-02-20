@@ -13,6 +13,7 @@ body {
     margin: 0 auto;
     width: 80%;
     min-width: 800px;
+    max-width: 960px;
 }
 header {
     padding-top: 20px;
