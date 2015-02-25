@@ -3,13 +3,14 @@ body {
 	background-color: #D8D8D8;
 	font-family: sans-serif;
 	color: #240B3B;
-
+    background-image: url(NYU_Seal.png) no-repeat;
 }
 
 .Header img{
 
 	border: 2px solid;
     border-radius: 10px;
+    float: left;
 
 }
 
@@ -26,7 +27,9 @@ body {
 	opacity: 0.15;
 
 }
-
+.Resume_Body {
+    clear: both;   
+}
 .Resume_Body h2{
 
 	border-bottom: solid;
@@ -51,5 +54,10 @@ body {
 	margin-top: -10px;
 
 }
-
-
+.Header .Name, .Header .Contact {
+    float: left;   
+}
+.Header .Contact {
+    clear: both;
+    float: left;
+}
