@@ -1,0 +1,78 @@
+.header img{
+
+	border: 2px solid;
+    border-radius: 10px;
+
+}
+
+.photo,.contact {
+    
+    display: inline-block;
+    
+}
+
+ .contact {
+     
+     padding-left: 25px;
+     
+ }
+
+.Name {
+    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.contact p {
+    
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    
+}
+
+.Background{
+
+	position: absolute;
+	opacity: 0.15;
+
+}
+
+.Background img {
+
+    right: 20%;
+    top: 80%;
+    height: 800px;
+    width: 800px;
+    z-index: -1;
+    
+}
+
+.Resume_Body h2{
+
+    border-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+
+}
+
+.Resume_Body p{
+
+	text-decoration: underline;
+
+}
+
+.Resume_Body p span{
+
+	font-weight: bold;
+
+}
+
+.Resume_Body p+ul{
+
+	margin-top: -10px;
+
+}
