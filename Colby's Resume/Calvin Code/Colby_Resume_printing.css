@@ -1,7 +1,15 @@
+.header {
+    
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom-style: groove;
+    
+}
+
 .header img{
 
-	border: 2px solid;
-    border-radius: 10px;
+    height: 100px;
+    width: 100px;
 
 }
 
@@ -13,6 +21,7 @@
 
  .contact {
      
+     font-size: 75%;
      padding-left: 25px;
      
  }
@@ -51,18 +60,23 @@
 }
 
 .Resume_Body h2{
+    
+    margin-bottom: -10px;
+    border-bottom-style: solid;
+    
+}
 
-    border-style: solid;
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
-
+.Resume_Body section{
+    
+    margin-top: -10px;
+    margin-bottom: -15px;
+    
 }
 
 .Resume_Body p{
 
 	text-decoration: underline;
-
+    
 }
 
 .Resume_Body p span{
@@ -73,6 +87,7 @@
 
 .Resume_Body p+ul{
 
-	margin-top: -10px;
+    margin-top: -10px;
+	margin-bottom: -10px;
 
 }

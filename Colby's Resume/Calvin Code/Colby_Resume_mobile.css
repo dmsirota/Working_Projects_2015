@@ -1,8 +1,5 @@
 .body_container {
 
-    width: 1000px;
-    margin: auto;
-
 }
 
 .header {
@@ -20,12 +17,6 @@
 	border: 2px solid;
     border-radius: 10px;
 
-}
-
-.photo,.contact {
-    
-    display: inline-block;
-    
 }
 
  .contact {
@@ -92,19 +83,6 @@
 
 	margin-top: -10px;
 
-}
-
-.education,.activities {
- 
-    display: inline-block;
-    vertical-align: top;
-    
-}
-.experience,.skills {
- 
-    display: inline-block;
-    vertical-align: top;
-    
 }
 
 .education {
