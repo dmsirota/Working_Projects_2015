@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    background: #fffff9;   
+}
 body {
     min-width: 900px;
     margin: 0 auto;
