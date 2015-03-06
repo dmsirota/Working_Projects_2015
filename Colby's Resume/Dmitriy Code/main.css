@@ -23,13 +23,16 @@ header {
 header p {
     line-height: 1.4;   
 }
-h1 {
+.regName {
     font-size: 3em;
     margin-bottom: 10px;
 }
 h2 {
     margin-bottom: 20px; 
     font-size: 2em;
+}
+.mobileName {
+    display: none;   
 }
 img {
     display: inline-block;
@@ -86,7 +89,7 @@ footer {
 
 /* Tablet Styles */
 
-@media only screen and (min-width: 768px and max-width: 900px) {
+@media only screen and (min-width: 768px) and (max-width: 900px) {
     
     body {
         margin: 0 auto;
@@ -96,6 +99,7 @@ footer {
         margin: 0 auto;
         width: 90%;   
     }
+    
     .skills {
         box-sizing: border-box;
         float: none;
@@ -108,26 +112,56 @@ footer {
         width: 100%;
         padding: 20px;
     }
-
-
-
-
 }
 
 /* Smartphone Styles */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 767px) {
     body {
-        
+        width: 100%;
     }
     .mainDiv {
-        
+        min-width: 320px;
+        max-width: 767px;
+        width: 100%;
+    }
+    .regName {
+        display: none;   
+    }
+    header {
+        text-align: center;
+        border-bottom: 1px solid gray;
+        padding-bottom: 10px;
+    }
+    .mobileName {
+        display: block;
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+    img {
+        display: block;
+        float: none;
+        margin: auto;
+        width: 300px;
+    }
+    .experience {
+        border: 0;
+        border-bottom: 1px solid gray;
+    }
+    .education {
+        border: 0;
+        border-bottom: 1px solid gray;
     }
     .skills {
-        
+        border: 0;
+        float: none;
+        width: 100%;
+        border-bottom: 1px solid gray;
     }
     .activities {
-        
+        border: 0;
+        float: none;
+        width: 100%;
     }
 }
 
