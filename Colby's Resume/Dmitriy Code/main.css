@@ -1,3 +1,5 @@
+/* Main Styles go here */
+
 * {
     margin: 0;
     padding: 0;
@@ -78,3 +80,54 @@ footer {
     min-width: 800px;
     margin: 0 auto;
 }
+
+
+/* Mobile styles go here */
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 768px and max-width: 900px) {
+    
+    body {
+        margin: 0 auto;
+        width: 100%;   
+    }
+    .mainDiv {
+        margin: 0 auto;
+        width: 90%;   
+    }
+    .skills {
+        box-sizing: border-box;
+        float: none;
+        width: 100%; 
+        padding: 20px;
+    }
+    .activities {
+        box-sizing: border-box;
+        float: none;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+
+}
+
+/* Smartphone Styles */
+
+@media only screen and (min-width: 320px) {
+    body {
+        
+    }
+    .mainDiv {
+        
+    }
+    .skills {
+        
+    }
+    .activities {
+        
+    }
+}
+
