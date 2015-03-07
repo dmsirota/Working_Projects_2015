@@ -358,6 +358,12 @@
         display: none;
 
     }
+    
+    .education h2,.activities h2,.experience h2,.skills h2{
+
+        background-color: bisque;
+        
+    }
 
     .Resume_Body h2{
 
