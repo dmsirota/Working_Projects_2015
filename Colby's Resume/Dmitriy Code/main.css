@@ -99,7 +99,8 @@ footer {
     
     body {
         margin: 0 auto;
-        width: 100%;   
+        width: 100%;  
+        font-size: 20px;
     }
     .mainDiv {
         margin: 0 auto;
