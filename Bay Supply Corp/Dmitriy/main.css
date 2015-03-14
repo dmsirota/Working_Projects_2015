@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.pageHeader {
+
+}
+.logo {
+    padding: 15px;
+    float: left;
+}
+.mainNav {
+    float: left;
+}
+.mainNav-ul {
+    list-style: none;
+}
+.mainNav-ul li {
+    float: left;
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 20px 20px 0 20px;
+    font-size: 1.2em
+}
+.contentBody {
+    clear: both;
+    width: 80%;
+    margin: auto;
+    border: 1px solid gray;
+}
+.banner {
+    height: 300px;
+    position: relative;
+}
+.banner h1 {
+    display: inline;
+    font-size: 4em;
+    position: relative;
+    top: 210px;
+    left: 48%;
+    
+}
