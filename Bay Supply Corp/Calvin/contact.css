@@ -3,3 +3,12 @@
     clear: both;
     
 }
+
+.store_hours {
+    
+    margin-top: 1%;
+    table-layout: fixed;
+    width: 20%;
+    margin-bottom: 1%;
+    
+}
