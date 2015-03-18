@@ -2,13 +2,20 @@
     margin: 0;
     padding: 0;
 }
+html {
+    background-image: url(../Images/Blueprint-Background.jpg);
+}
 body {
     width: 100%;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
 .pageHeader {
-
+    width: 90%;
+    min-width: 1024px;
+    margin: 0 auto;
+    background: #777;
+    overflow: hidden;
 }
 .logo {
     padding: 15px;
@@ -30,19 +37,49 @@ body {
 }
 .contentBody {
     clear: both;
-    width: 80%;
+    width: 900px;
     margin: auto;
-    border: 1px solid gray;
+    position: relative;
+    background: #ccc;
 }
 .banner {
-    height: 300px;
+    height: 450px;
     position: relative;
 }
-.banner h1 {
-    display: inline;
-    font-size: 4em;
-    position: relative;
-    top: 210px;
-    left: 48%;
+.indexBanner {
+    background-image: url(../Images/google_drive_images/back_sign.jpg);
+}
+.aboutBanner {
+    background-image: url(../Images/google_drive_images/counter.jpg);
+}
+.contactBanner {
+    background-image: url(../Images/google_drive_images/front_entrance.jpg);
+}
+.productsBanner {
+    background-image: url();
+}
+.pageFooter {
+    margin: 0 auto;
+    width: 900px;
+    overflow: hidden;
+    background: #999;
+}
+.copyright {
+    float: left;
+    margin-left: 10px;
+    line-height: 70px;
+}
+.phone {
+    float: left;
+    margin-left: 150px;
+    line-height: 70px;
+}
+.FBLogo {
+    float: right;
+    margin: 10px;
     
 }
+
+
+
+
