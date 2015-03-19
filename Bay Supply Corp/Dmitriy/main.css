@@ -4,6 +4,7 @@
 }
 html {
     background-image: url(../Images/Blueprint-Background.jpg);
+    background-attachment: fixed;
 }
 body {
     width: 100%;
