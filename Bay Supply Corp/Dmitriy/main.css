@@ -58,6 +58,30 @@ body {
 .productsBanner {
     background-image: url();
 }
+.about_intro, .services {
+    padding: 40px 80px 0 80px;
+}
+.nameAccent {
+    font-weight: bold;
+}
+.brandAccent {
+    font-style: italic;
+}
+.about_intro p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.services h2 {
+}
+.serviceList {
+    padding: 20px;
+}
+.serviceList li {
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
 .pageFooter {
     margin: 0 auto;
     width: 900px;
