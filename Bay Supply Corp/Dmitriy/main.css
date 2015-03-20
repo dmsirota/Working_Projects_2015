@@ -12,7 +12,7 @@ body {
     font-size: 16px;
 }
 h2 {
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
 .pageHeader {
     width: 90%;
@@ -85,7 +85,10 @@ a:link, a:visited {
 .productsBanner {
     background-image: url();
 }
-.about_intro, .services {
+.creditBanner {
+    background-image: url(../Images/google_drive_images/store_back.JPG);
+}
+.about_intro, .services, .policies {
     padding: 40px 80px 0 80px;
 }
 .nameAccent {
@@ -94,10 +97,17 @@ a:link, a:visited {
 .brandAccent {
     font-style: italic;
 }
-.about_intro p, .storeLocation p {
+.about_intro p, .storeLocation p, .policies p {
     font-size: 1.2em;
     line-height: 1.5;
     margin-bottom: 20px;
+}
+.policies h2 {
+    margin-bottom: 20px;
+}
+.policyName {
+    font-weight: bold;
+    text-decoration: underline;
 }
 .serviceList, .hoursList, .leftList, .rightList {
     padding: 20px;
@@ -141,9 +151,30 @@ a:link, a:visited {
 .extName {
     font-weight: bold;
 }
-
-
-
+.creditApp {
+    padding: 90px 80px 0 80px;
+    height: 450px;
+    text-align: center;
+}
+.credDownload {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 1.2em;
+    box-shadow: 7px 7px 10px #999;
+    background: #aaaaaa; /* Old browsers */
+    background: -moz-linear-gradient(top, #aaaaaa 0%, #ffffff 40%, #ffffff 60%, #aaaaaa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aaaaaa), color-stop(40%,#ffffff), color-stop(60%,#ffffff), color-stop(100%,#aaaaaa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+    
+}
+.credit-p {
+    margin-top: 30px;
+}
 /*  Footer Styles Here  */
 
 .pageFooter {
