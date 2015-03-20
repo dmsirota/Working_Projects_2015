@@ -1,3 +1,5 @@
+/*  Global Styles  */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,9 @@ body {
 h2 {
     font-size: 1.8em;
 }
+
+/*  Header Styles & Navigation Styles  */
+
 .pageHeader {
     width: 90%;
     width: 1024px;
@@ -54,6 +59,9 @@ a:link, a:visited {
 .mainNav-ul li:hover, a:hover {
     background: #ccc;
 }
+
+/*  Main Body Styles  */
+
 .contentBody {
     overflow: hidden;
     clear: both;
@@ -175,6 +183,7 @@ a:link, a:visited {
 .credit-p {
     margin-top: 30px;
 }
+
 /*  Footer Styles Here  */
 
 .pageFooter {
