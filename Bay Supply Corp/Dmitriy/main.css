@@ -26,7 +26,7 @@ h2 {
     font-size: 1.8em;
     color: #4269b5;
     clear: both;
-    padding: 10px 45px 0px;
+  /*  padding: 10px 45px 0px; */
 }
 
 /*  Header Styles & Navigation Styles  */
@@ -242,6 +242,9 @@ a:link, a:visited {
 }
 .products {
     clear: both;
+}
+.products h2, .brands h2 {
+    padding: 10px 45px 0px;
 }
 /* .materialsBody, .supportsBody, .electricalBody, .brands, .sprinklersBody
 */
