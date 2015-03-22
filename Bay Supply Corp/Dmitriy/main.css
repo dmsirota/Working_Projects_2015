@@ -10,11 +10,13 @@ html {
 }
 body {
     width: 100%;
-    font-family: Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 16px;
 }
 h2 {
-    font-size: 1.8em;
+    font-family: "PT Serif";
+    font-size: 2.2em;
+    color: #4269b5;
 }
 
 /*  Header Styles & Navigation Styles  */
@@ -77,6 +79,8 @@ a:link, a:visited {
     background: linear-gradient(to right, #aaaaaa 0%,#ffffff 29%,#ffffff 71%,#aaaaaa 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#aaaaaa',GradientType=1 ); /* IE6-9 */
 }
+
+/*  Banner Styles  */
 .banner {
     height: 450px;
     position: relative;
@@ -96,14 +100,21 @@ a:link, a:visited {
 .creditBanner {
     background-image: url(../Images/google_drive_images/store_back.JPG);
 }
-.about_intro, .services, .policies {
+
+/*  Content Styles  */
+
+.about_intro, .services {
     padding: 40px 80px 0 80px;
 }
 .nameAccent {
     font-weight: bold;
+    color: ;
 }
 .brandAccent {
     font-style: italic;
+}
+.policies {
+    padding: 40px 80px;
 }
 .about_intro p, .storeLocation p, .policies p {
     font-size: 1.2em;
@@ -143,6 +154,7 @@ a:link, a:visited {
 }
 .leftList {
     float: left;
+    margin-bottom: 20px;
 }
 .rightList {
     float: left;
@@ -154,10 +166,12 @@ a:link, a:visited {
 }
 .etxBranch {
     text-decoration: underline;
-    font-style: italic
+    font-style: italic;
+    color: ;
 }
 .extName {
     font-weight: bold;
+    
 }
 .creditApp {
     padding: 90px 80px 0 80px;
@@ -206,7 +220,3 @@ a:link, a:visited {
     float: right;
     margin: 10px; 
 }
-
-
-
-
