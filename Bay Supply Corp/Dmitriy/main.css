@@ -13,10 +13,20 @@ body {
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 16px;
 }
+h1 {
+    font-family: "PT Serif";
+    font-size: 2.3em;
+    color: #204793;
+    clear: both;
+    margin-top: 40px;
+    padding: 10px 45px 0px;
+}
 h2 {
     font-family: "PT Serif";
-    font-size: 2.2em;
+    font-size: 1.8em;
     color: #4269b5;
+    clear: both;
+    padding: 10px 45px 0px;
 }
 
 /*  Header Styles & Navigation Styles  */
@@ -119,7 +129,7 @@ a:link, a:visited {
 }
 .about_intro p, .storeLocation p, .policies p {
     font-size: 1.2em;
-    line-height: 1.5;
+    line-height: 1.3;
     margin-bottom: 20px;
 }
 .policies h2 {
@@ -134,7 +144,7 @@ a:link, a:visited {
 }
 .serviceList li, .hoursList li, .leftList li, .rightList li {
     padding-bottom: 10px;
-    line-height: 1.5;
+    line-height: 1.3;
     font-size: 1.2em;
 }
 .storeHours, .storeLocation {
@@ -198,6 +208,57 @@ a:link, a:visited {
 .credit-p {
     margin-top: 30px;
 }
+.quickLinks {
+    background: #ccc;
+    overflow: hidden;
+    margin: 40px;
+    border: 1px solid gray;
+    
+}
+.quickLinks h2 {
+    padding: 40px 80px 30px;
+}
+.prodLinks {
+    float: left;
+    margin: 0 100px 40px 100px;
+}
+.brandLinks {
+    float: left;
+    margin: 0 100px 40px 100px;
+}
+.prodLinks h3, .brandLinks h3 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.4em;
+}
+.prodLinks ul, .brandLinks ul {
+    padding-left: 20px;
+    line-height: 1.5;
+    
+}
+.prodLinks a, .brandLinks a, .prodLinks a:visited, .brandLinks a:visited {
+    text-decoration: none;
+    color: #002571;
+}
+.products {
+    clear: both;
+}
+/* .materialsBody, .supportsBody, .electricalBody, .brands, .sprinklersBody
+*/
+.imageC {
+    float: left;
+    width: 135px;
+    height: 220px;
+    margin: 40px 45px;
+    background: #777;
+}
+.image {
+    height: 180px;
+    background: #999;
+    
+}
+
+
 
 /*  Footer Styles Here  */
 
