@@ -246,21 +246,32 @@ a:link, a:visited {
 .products h2, .brands h2 {
     padding: 10px 45px 0px;
 }
-/* .materialsBody, .supportsBody, .electricalBody, .brands, .sprinklersBody
-*/
+
 .imageC {
     float: left;
-    width: 135px;
-    height: 220px;
+    width: 210px;
     margin: 40px 45px;
-    background: #777;
 }
 .image {
-    height: 180px;
-    background: #999;
+    box-sizing: border-box;
+    width: 210px;
+    height: 210px;
+    background: white;
+    border: 1px solid black;
+    overflow: hidden;
+    vertical-align: middle;
     
 }
-
+.caption {
+    box-sizing: border-box;
+    height: 40px;
+    background: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-top: none;
+}
 
 
 /*  Footer Styles Here  */
