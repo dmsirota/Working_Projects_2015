@@ -1,48 +1,222 @@
+/*  Global Styles  */
+
 * {
     margin: 0;
     padding: 0;
 }
+html {
+    background-image: url(../Images/Blueprint-Background.jpg);
+    background-attachment: fixed;
+}
 body {
     width: 100%;
-    font-family: Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 16px;
 }
-.pageHeader {
+h2 {
+    font-family: "PT Serif";
+    font-size: 2.2em;
+    color: #4269b5;
+}
 
+/*  Header Styles & Navigation Styles  */
+
+.pageHeader {
+    width: 90%;
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .logo {
-    padding: 15px;
+    padding: 15px 0;
     float: left;
 }
 .mainNav {
     float: left;
+    margin-top: 30px;
+    height: 45px;
+    max-width: 721px;
+    background: #cccccc; /* Old browsers */
+    background: -moz-linear-gradient(top, #cccccc 0%, #444444 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-  stop(100%,#444444)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #cccccc 0%,#444444 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #cccccc 0%,#444444 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #cccccc 0%,#444444 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #cccccc 0%,#444444 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc',            endColorstr='#444444',GradientType=0 ); /* IE6-9 */
 }
 .mainNav-ul {
     list-style: none;
 }
 .mainNav-ul li {
     float: left;
-    padding: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin: 20px 20px 0 20px;
-    font-size: 1.2em
+    font-size: 1.3em;
+    margin: 0 15px;
+    padding: 0 20px;
+    line-height: 45px;
 }
+a:link, a:visited {
+    color: #213264;
+}
+.mainNav-ul li:hover, a:hover {
+    background: #ccc;
+}
+
+/*  Main Body Styles  */
+
 .contentBody {
+    overflow: hidden;
     clear: both;
-    width: 80%;
+    width: 900px;
     margin: auto;
-    border: 1px solid gray;
+    position: relative;
+    background: #aaaaaa; /* Old browsers */
+    background: -moz-linear-gradient(left, #aaaaaa 0%, #ffffff 29%, #ffffff 71%, #aaaaaa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#aaaaaa), color-stop(29%,#ffffff), color-stop(71%,#ffffff), color-stop(100%,#aaaaaa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #aaaaaa 0%,#ffffff 29%,#ffffff 71%,#aaaaaa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #aaaaaa 0%,#ffffff 29%,#ffffff 71%,#aaaaaa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #aaaaaa 0%,#ffffff 29%,#ffffff 71%,#aaaaaa 100%); /* IE10+ */
+    background: linear-gradient(to right, #aaaaaa 0%,#ffffff 29%,#ffffff 71%,#aaaaaa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#aaaaaa',GradientType=1 ); /* IE6-9 */
 }
+
+/*  Banner Styles  */
 .banner {
-    height: 300px;
+    height: 450px;
     position: relative;
 }
-.banner h1 {
-    display: inline;
-    font-size: 4em;
-    position: relative;
-    top: 210px;
-    left: 48%;
+.indexBanner {
+    background-image: url(../Images/google_drive_images/back_sign.jpg);
+}
+.aboutBanner {
+    background-image: url(../Images/google_drive_images/counter.jpg);
+}
+.contactBanner {
+    background-image: url(../Images/google_drive_images/front_entrance.jpg);
+}
+.productsBanner {
+    background-image: url();
+}
+.creditBanner {
+    background-image: url(../Images/google_drive_images/store_back.JPG);
+}
+
+/*  Content Styles  */
+
+.about_intro, .services {
+    padding: 40px 80px 0 80px;
+}
+.nameAccent {
+    font-weight: bold;
+    color: ;
+}
+.brandAccent {
+    font-style: italic;
+}
+.policies {
+    padding: 40px 80px;
+}
+.about_intro p, .storeLocation p, .policies p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.policies h2 {
+    margin-bottom: 20px;
+}
+.policyName {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.serviceList, .hoursList, .leftList, .rightList {
+    padding: 20px;
+}
+.serviceList li, .hoursList li, .leftList li, .rightList li {
+    padding-bottom: 10px;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+.storeHours, .storeLocation {
+    padding: 40px 80px 0 80px;
+}
+.address {
+    font-style: italic;
+    text-decoration: underline;
+}
+.phoneContact {
+    padding: 20px 80px 0;
+}
+.phoneContact h2, .storeLocation h2 {
+    margin-bottom: 20px;
+}
+.phoneNum {
+    font-size: 1.4em;
+}
+.leftList {
+    float: left;
+    margin-bottom: 20px;
+}
+.rightList {
+    float: left;
+    margin-left: 40px;
+}
+.leftList ul, .rightList ul {
+    list-style: none;
+    padding-left: 10px
+}
+.etxBranch {
+    text-decoration: underline;
+    font-style: italic;
+    color: ;
+}
+.extName {
+    font-weight: bold;
     
+}
+.creditApp {
+    padding: 90px 80px 0 80px;
+    height: 450px;
+    text-align: center;
+}
+.credDownload {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 1.2em;
+    box-shadow: 7px 7px 10px #999;
+    background: #aaaaaa; /* Old browsers */
+    background: -moz-linear-gradient(top, #aaaaaa 0%, #ffffff 40%, #ffffff 60%, #aaaaaa 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aaaaaa), color-stop(40%,#ffffff), color-stop(60%,#ffffff), color-stop(100%,#aaaaaa)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #aaaaaa 0%,#ffffff 40%,#ffffff 60%,#aaaaaa 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
+    
+}
+.credit-p {
+    margin-top: 30px;
+}
+
+/*  Footer Styles Here  */
+
+.pageFooter {
+    margin: 0 auto;
+    width: 900px;
+    overflow: hidden;
+    background: #999;
+}
+.copyright {
+    float: left;
+    margin-left: 10px;
+    line-height: 70px;
+}
+.phone {
+    float: left;
+    margin-left: 150px;
+    line-height: 70px;
+}
+.FBLogo {
+    float: right;
+    margin: 10px; 
 }
