@@ -220,11 +220,11 @@ a:link, a:visited {
 }
 .prodLinks {
     float: left;
-    margin: 0 100px 40px 100px;
+    margin: 0 100px 40px 80px;
 }
 .brandLinks {
     float: left;
-    margin: 0 100px 40px 100px;
+    margin: 0 60px 40px 100px;
 }
 .prodLinks h3, .brandLinks h3 {
     margin-bottom: 10px;
@@ -263,6 +263,7 @@ a:link, a:visited {
     
 }
 .caption {
+    display: none;
     box-sizing: border-box;
     height: 40px;
     background: white;
