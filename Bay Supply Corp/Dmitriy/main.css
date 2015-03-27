@@ -32,19 +32,23 @@ h2 {
 /*  Header Styles & Navigation Styles  */
 
 .pageHeader {
-    width: 1024px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
 }
 .logo {
-    padding: 15px 0 15px 15px;
+    padding: 15px 0;
     float: left;
 }
 .mainNav {
-    float: left;
+    position: absolute;
+    left: 300px;
+    float: right;
     margin-top: 30px;
     height: 45px;
-    max-width: 721px;
+    width: 70%;
     background: #cccccc; /* Old browsers */
     background: -moz-linear-gradient(top, #cccccc 0%, #444444 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-  stop(100%,#444444)); /* Chrome,Safari4+ */
@@ -60,8 +64,8 @@ h2 {
 .mainNav-ul li {
     float: left;
     font-size: 1.3em;
-    margin: 0 15px;
-    padding: 0 20px;
+    margin: 0 2.2%;
+    padding: 0 2%;
     line-height: 45px;
 }
 a:link, a:visited {
@@ -90,6 +94,7 @@ a:link, a:visited {
     background: linear-gradient(to right, #aaaaaa 0%,#ffffff 29%,#ffffff 71%,#aaaaaa 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#aaaaaa',GradientType=1 ); /* IE6-9 */
 }
+
 /*  Banner Styles  */
 
 .banner {
@@ -246,7 +251,6 @@ a:link, a:visited {
 .products h2, .brands h2 {
     padding: 10px 45px 0px;
 }
-
 .imageC {
     float: left;
     width: 210px;
@@ -254,13 +258,17 @@ a:link, a:visited {
 }
 .image {
     box-sizing: border-box;
-    width: 210px;
+    width: 214px;
     height: 210px;
     background: white;
     border: 1px solid black;
     overflow: hidden;
     vertical-align: middle;
     
+}
+.image img {
+    width: 99%;
+    margin: 0 auto;
 }
 .caption {
     display: none;
@@ -273,7 +281,6 @@ a:link, a:visited {
     border: 1px solid black;
     border-top: none;
 }
-
 
 /*  Footer Styles Here  */
 
@@ -299,3 +306,27 @@ a:link, a:visited {
     float: right;
     margin: 10px; 
 }
+
+/*  Media Queries  */
+
+@media only screen and (max-width: 1024px) and (min-width: 900px) {
+    .pageHeader {
+        
+    }
+}
+
+@media only screen and (max-width: 899px) {
+    .contentBody {
+        width: 100%;
+    }
+    .mainNav {
+        width: 600px;
+    }
+    .pageFooter {
+        width: 100%;
+    }
+    
+}
+
+
+
