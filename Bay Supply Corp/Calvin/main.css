@@ -40,43 +40,38 @@ h2 {
 }
 .logo {
     padding: 15px 0;
-    float: left; 
-    z-index: 1;
-    position: relative;
+    float: left;
 }
 .mainNav {
     position: absolute;
-    margin-left: 5%;
-    left: 250px;
+    left: 300px;
     float: right;
     margin-top: 31px;
-    height: 43px;
+    height: 42.5px;
     width: 70%;
-    background: #cccccc; /* Old browsers */
-    background: -moz-linear-gradient(top, #cccccc 0%, #444444 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-  stop(100%,#444444)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #cccccc 0%,#444444 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #cccccc 0%,#444444 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #cccccc 0%,#444444 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #cccccc 0%,#444444 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc',            endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+    background: #9999a3; /* Old browsers */
+background: -webkit-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 19%, rgba(255, 255, 255, 0.38) 20%, rgba(179, 179, 183, 0.75) 21%, rgba(170, 171, 175, 0.7) 23%, rgba(118, 120, 124, 0.14) 48%, rgba(108, 110, 114, 0.29) 54%, rgba(29, 29, 30, 0.79) 74%, rgba(93, 97, 100, 0.79) 81%, rgba(102, 102, 117, 0.14) 83%, rgba(0, 0, 0, 0.14) 90%);
+background: -o-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 19%, rgba(255, 255, 255, 0.38) 20%, rgba(179, 179, 183, 0.75) 21%, rgba(170, 171, 175, 0.7) 23%, rgba(118, 120, 124, 0.14) 48%, rgba(108, 110, 114, 0.29) 54%, rgba(29, 29, 30, 0.79) 74%, rgba(93, 97, 100, 0.79) 81%, rgba(102, 102, 117, 0.14) 83%, rgba(0, 0, 0, 0.14) 90%);
+background: -ms-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 19%, rgba(255, 255, 255, 0.38) 20%, rgba(179, 179, 183, 0.75) 21%, rgba(170, 171, 175, 0.7) 23%, rgba(118, 120, 124, 0.14) 48%, rgba(108, 110, 114, 0.29) 54%, rgba(29, 29, 30, 0.79) 74%, rgba(93, 97, 100, 0.79) 81%, rgba(102, 102, 117, 0.14) 83%, rgba(0, 0, 0, 0.14) 90%);
+background: -moz-linear-gradient(bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 19%, rgba(255, 255, 255, 0.38) 20%, rgba(179, 179, 183, 0.75) 21%, rgba(170, 171, 175, 0.7) 23%, rgba(118, 120, 124, 0.14) 48%, rgba(108, 110, 114, 0.29) 54%, rgba(29, 29, 30, 0.79) 74%, rgba(93, 97, 100, 0.79) 81%, rgba(102, 102, 117, 0.14) 83%, rgba(0, 0, 0, 0.14) 90%);
+background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.67) 19%, rgba(255, 255, 255, 0.38) 20%, rgba(179, 179, 183, 0.75) 21%, rgba(170, 171, 175, 0.7) 23%, rgba(118, 120, 124, 0.14) 48%, rgba(108, 110, 114, 0.29) 54%, rgba(29, 29, 30, 0.79) 74%, rgba(93, 97, 100, 0.79) 81%, rgba(102, 102, 117, 0.14) 83%, rgba(0, 0, 0, 0.14) 90%);
+
 }
 .mainNav-ul {
     list-style: none;
 }
 .mainNav-ul li {
-    position: relative;
-    float: right;
-    font-size: 1.3em;
-    margin: 0 2% 0 0%;
-    padding: 0 2% 0 0%;
+    float: left;
+    font-size: 1.4em;
+    margin: 0 2.2%;
+    padding: 0 2%;
     line-height: 45px;
 }
 a:link, a:visited {
-    color: #213264;
+    color: white;
 }
 .mainNav-ul li:hover {
-    background: #ccc;
+    background: rgba(200, 200, 200, 0.5);
 }
 
 /*  Main Body Styles  */
