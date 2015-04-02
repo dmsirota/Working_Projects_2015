@@ -49,14 +49,14 @@ h2 {
     margin-top: 31px;
     height: 42.5px;
     width: 70%;
-background: #9da6aa; /* Old browsers */
-background: -moz-linear-gradient(top,  #9da6aa 1%, #7c7e84 6%, #696b6d 9%, #6e6f72 15%, #7a7d7f 17%, #818187 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 87%, #3b3a3d 93%, #56565e 98%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#9da6aa), color-stop(6%,#7c7e84), color-stop(9%,#696b6d), color-stop(15%,#6e6f72), color-stop(17%,#7a7d7f), color-stop(19%,#818187), color-stop(29%,#a4a5a5), color-stop(34%,#bcbcbc), color-stop(38%,#a6a9ad), color-stop(42%,#9b9ca0), color-stop(52%,#757577), color-stop(65%,#464749), color-stop(69%,#3e3f3f), color-stop(79%,#2c2d30), color-stop(87%,#1a1c1b), color-stop(93%,#3b3a3d), color-stop(98%,#56565e)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #9da6aa 1%,#7c7e84 6%,#696b6d 9%,#6e6f72 15%,#7a7d7f 17%,#818187 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 87%,#3b3a3d 93%,#56565e 98%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #9da6aa 1%,#7c7e84 6%,#696b6d 9%,#6e6f72 15%,#7a7d7f 17%,#818187 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 87%,#3b3a3d 93%,#56565e 98%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #9da6aa 1%,#7c7e84 6%,#696b6d 9%,#6e6f72 15%,#7a7d7f 17%,#818187 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 87%,#3b3a3d 93%,#56565e 98%); /* IE10+ */
-background: linear-gradient(to bottom,  #9da6aa 1%,#7c7e84 6%,#696b6d 9%,#6e6f72 15%,#7a7d7f 17%,#818187 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 87%,#3b3a3d 93%,#56565e 98%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9da6aa', endColorstr='#56565e',GradientType=0 ); /* IE6-9 */
+background: #9d9ea5; /* Old browsers */
+background: -moz-linear-gradient(top,  #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#9d9ea5), color-stop(5%,#7c7e84), color-stop(9%,#747577), color-stop(13%,#6e6f72), color-stop(15%,#717375), color-stop(19%,#7e7e82), color-stop(29%,#a4a5a5), color-stop(34%,#bcbcbc), color-stop(38%,#a6a9ad), color-stop(42%,#9b9ca0), color-stop(52%,#757577), color-stop(65%,#464749), color-stop(69%,#3e3f3f), color-stop(79%,#2c2d30), color-stop(88%,#1a1c1b), color-stop(94%,#3b3a3d), color-stop(98%,#62626b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9d9ea5 2%,#7c7e84 5%,#747577 9%,#6e6f72 13%,#717375 15%,#7e7e82 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 88%,#3b3a3d 94%,#62626b 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9d9ea5 2%,#7c7e84 5%,#747577 9%,#6e6f72 13%,#717375 15%,#7e7e82 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 88%,#3b3a3d 94%,#62626b 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9d9ea5 2%,#7c7e84 5%,#747577 9%,#6e6f72 13%,#717375 15%,#7e7e82 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 88%,#3b3a3d 94%,#62626b 98%); /* IE10+ */
+background: linear-gradient(to bottom,  #9d9ea5 2%,#7c7e84 5%,#747577 9%,#6e6f72 13%,#717375 15%,#7e7e82 19%,#a4a5a5 29%,#bcbcbc 34%,#a6a9ad 38%,#9b9ca0 42%,#757577 52%,#464749 65%,#3e3f3f 69%,#2c2d30 79%,#1a1c1b 88%,#3b3a3d 94%,#62626b 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d9ea5', endColorstr='#62626b',GradientType=0 ); /* IE6-9 */
 }
 .mainNav-ul {
     list-style: none;
