@@ -360,7 +360,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', e
 /*  Media Queries  */
 
 /*Medium-Sized Devices*/
-@media only screen and (max-width: 1024px) and (min-width: 800px) {
+@media only screen and (max-width: 1024px) and (min-width: 875px) {
     
     /*  Header Styles & Navigation Styles  */
     .pageHeader {
@@ -421,7 +421,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', e
 }
 
 /*Smaller-Sized Devices*/
-@media only screen and (max-width: 799px) and (min-width: 600px) {
+@media only screen and (max-width: 874px) and (min-width: 670px) {
     
      /*  Header Styles & Navigation Styles  */
     .pageHeader {
@@ -436,16 +436,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', e
         left: 205px;
         margin-top: 27px;
         height: 31px;
-        width: 80%;
+        width: 74%;
     }
     .mainNav-ul {
         clear: both;
-        margin-right: 17%;
+        margin-right: 10%;
     }
     .mainNav-ul li {
         font-size: 1em;
-        margin: -1.5% 0.5% 1% 0%;
-        padding: -1.5% 0.5% 1% 0%;
+        margin: -1.5% 1% 1% 0%;
+        padding: -1.5% 1% 1% 0%;
     }  
     
     /*Main Content Body*/
@@ -477,6 +477,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', e
     }
     .products > section > div:nth-child(2n) {
         float: right;
-    }   
+    } 
     
+    /*Contact Page*/
+    .leftList {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .rightList {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+  
 }
