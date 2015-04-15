@@ -463,7 +463,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', e
         width: 600px;
     }
     
-    /*Content Styles*/
+    /*Content Styles*/0
     .brandLinks {
         clear: both; 
     }
@@ -490,4 +490,113 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', e
         padding-top: 0px;
     }
   
+}
+
+/*Tablet-Sized Devices*/
+@media only screen and (max-width: 651px) and (min-width: 480px) {
+    
+    /*  Header Styles & Navigation Styles  */
+    .pageHeader {
+        max-width: 475px;
+    }
+    .logo {
+        padding: 15px 5px;
+        width: 220px;
+        height: 52px;
+    }
+    .mainNav {
+        display: none;
+    }
+    .dropDownNavButton li { 
+      background-image: url(../Images/Blueprint-Background.jpg);
+      background-attachment: fixed;
+      display: block; 
+      color: #fff;
+      text-shadow: 0 -1px 0 #000;
+    }
+    .dropDownNavButton li:hover { 
+        background: #666;
+    }
+    .navigationButton:hover {
+      background: #555;
+      color: #fff;
+    }
+    .dropDownNavButton {
+        /*visibility: hidden; */
+    }
+    .navigationButton:hover > .dropDownNavButton {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    /*Main Content Body*/
+    .contentBody {
+        width: 460px;
+        display: none;
+    }
+    
+    /*  Banner Styles  */
+    .indexBanner,.aboutBanner,.contactBanner,.productsBanners,.creditBanner{
+        background-size: 100% 100%;
+    }
+    
+    /*  Footer Styles */
+    .pageFooter {
+        width: 460px;
+        display: none;
+    }
+    
+    .copyright {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: -40px;
+    }
+    .phone {
+        float: none;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .FBLogo {
+        float: none;
+        margin-top: -15px;
+        margin-left: 45%;
+        margin-right: 55%;
+    }
+    
+    /*Content Styles*/
+    .brandLinks {
+        clear: both; 
+    }
+    .quickLinks {
+        margin: 0 -30px;
+    }
+    
+    /*Products Page*/
+    .brands > section > div:nth-child(2n) {
+        float: right;
+    }
+    .products > section > div:nth-child(2n) {
+        float: right;
+    } 
+    
+    /*Contact Page*/
+    .leftList {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .rightList {
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+}
+
+/*Handheld Devices*/
+@media only screen and (max-width: 385px) {
+    
+    
+    
 }
