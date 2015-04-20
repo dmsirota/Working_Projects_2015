@@ -1,0 +1,616 @@
+/*  Global Styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url(../../Images/Blueprint-Background.jpg);
+    background-attachment: fixed;
+}
+
+body {
+    width: 100%;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "PT Serif";
+    font-size: 2.3em;
+    color: #204793;
+    clear: both;
+    margin-top: 40px;
+    padding: 10px 45px 0px;
+}
+
+h2 {
+    font-family: "PT Serif";
+    font-size: 1.8em;
+    color: #4269b5;
+    clear: both;
+}
+
+h3 {
+    font-family: "PT Serif";
+    color: #204793;
+}
+/*  Header Styles & Navigation Styles  */
+
+.pageHeader {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    padding: 15px 0;
+    float: left;
+}
+.mobileNav {
+    display: none;
+}
+.mainNav {
+    position: absolute;
+    left: 300px;
+    float: right;
+    margin-top: 31px;
+    height: 42.5px;
+    width: 70%;
+    background: #9d9ea5;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #9d9ea5), color-stop(5%, #7c7e84), color-stop(9%, #747577), color-stop(13%, #6e6f72), color-stop(15%, #717375), color-stop(19%, #7e7e82), color-stop(29%, #a4a5a5), color-stop(34%, #bcbcbc), color-stop(38%, #a6a9ad), color-stop(42%, #9b9ca0), color-stop(52%, #757577), color-stop(65%, #464749), color-stop(69%, #3e3f3f), color-stop(79%, #2c2d30), color-stop(88%, #1a1c1b), color-stop(94%, #3b3a3d), color-stop(98%, #62626b));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9d9ea5', endColorstr='#62626b', GradientType=0);
+    /* IE6-9 */
+}
+
+.mainNav-ul {
+    list-style: none;
+}
+
+.mainNav-ul li {
+    float: left;
+    font-size: 1.4em;
+    margin: 0 7px;
+    padding: 0 2%;
+    line-height: 45px;
+}
+
+a:link,
+a:visited {
+    color: white;
+}
+
+.mainNav-ul li:hover {
+    background: rgba(200, 200, 200, 0.5);
+}
+/*  Main Body Styles  */
+
+.contentBody {
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    width: 900px;
+    margin: auto;
+    border: 2px solid lightgray;
+    border-bottom: none;
+    background: #aaaaaa;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(left, #aaaaaa 0%, #ffffff 29%, #ffffff 71%, #aaaaaa 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #aaaaaa), color-stop(29%, #ffffff), color-stop(71%, #ffffff), color-stop(100%, #aaaaaa));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(left, #aaaaaa 0%, #ffffff 29%, #ffffff 71%, #aaaaaa 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(left, #aaaaaa 0%, #ffffff 29%, #ffffff 71%, #aaaaaa 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(left, #aaaaaa 0%, #ffffff 29%, #ffffff 71%, #aaaaaa 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to right, #aaaaaa 0%, #ffffff 29%, #ffffff 71%, #aaaaaa 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#aaaaaa', GradientType=1);
+    /* IE6-9 */
+}
+/*  Banner Styles  */
+
+.banner {
+    height: 450px;
+    position: relative;
+}
+
+.indexBanner {
+    background-image: url(../../images/pvc_pipes.jpg);
+}
+
+.indexBanner h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.7em;
+    color: #204793;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.indexBanner h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    font-style: italic;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.bannerText {
+    padding: 10px;
+    text-align: center;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0.75) 60%, rgba(255, 255, 255, 0.26) 90%, rgba(255, 255, 255, 0) 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.25)), color-stop(40%, rgba(255, 255, 255, 0.75)), color-stop(60%, rgba(255, 255, 255, 0.75)), color-stop(90%, rgba(255, 255, 255, 0.26)), color-stop(100%, rgba(255, 255, 255, 0)));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0.75) 60%, rgba(255, 255, 255, 0.26) 90%, rgba(255, 255, 255, 0) 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0.75) 60%, rgba(255, 255, 255, 0.26) 90%, rgba(255, 255, 255, 0) 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0.75) 60%, rgba(255, 255, 255, 0.26) 90%, rgba(255, 255, 255, 0) 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0.75) 60%, rgba(255, 255, 255, 0.26) 90%, rgba(255, 255, 255, 0) 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0);
+    /* IE6-9 */
+}
+
+.aboutBanner {
+    background: url(../../images/counter.jpg);
+}
+
+.contactBanner {
+    background: url(../../images/front_entrance.jpg) no-repeat top right;
+}
+
+.productsBanner {
+    background-image: url(../../images/no-hub-elbows.jpg);
+}
+
+.creditBanner {
+    background: url(../../images/store_back.JPG);
+}
+/*  Content Styles  */
+
+.about_intro,
+.services {
+    padding: 40px 80px 0 80px;
+}
+
+.welcome {
+    padding: 40px 80px 20px 80px;
+}
+
+.welcome h2 {
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.welcome a:link,
+.welcome a:visited {
+    color: #184591;
+}
+
+.nameAccent {
+    font-weight: bold;
+    color: ;
+}
+
+.brandAccent {
+    font-style: italic;
+}
+
+.policies {
+    padding: 40px 80px;
+}
+
+.about_intro p,
+.storeLocation p,
+.policies p {
+    font-size: 1.2em;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.policies h2 {
+    margin-bottom: 20px;
+}
+
+.policyName {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.serviceList,
+.hoursList,
+.leftList,
+.rightList {
+    padding: 20px;
+}
+
+.serviceList li,
+.hoursList li,
+.leftList li,
+.rightList li {
+    padding-bottom: 10px;
+    line-height: 1.3;
+    font-size: 1.2em;
+}
+
+.storeHours,
+.storeLocation {
+    padding: 40px 80px 0 80px;
+}
+
+.address {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.phoneContact {
+    padding: 20px 80px 0;
+}
+
+.phoneContact h2,
+.storeLocation h2 {
+    margin-bottom: 20px;
+}
+
+.phoneNum {
+    font-size: 1.4em;
+}
+
+.leftList {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.rightList {
+    float: left;
+    margin-left: 40px;
+}
+
+.leftList ul,
+.rightList ul {
+    list-style: none;
+    padding-left: 10px
+}
+
+.etxBranch {
+    text-decoration: underline;
+    font-style: italic;
+    color: ;
+}
+
+.extName {
+    font-weight: bold;
+}
+
+.creditApp {
+    padding: 90px 80px 0 80px;
+    height: 450px;
+    text-align: center;
+}
+
+.credDownload {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 1.2em;
+    box-shadow: 7px 7px 10px #999;
+    background: #aaaaaa;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #aaaaaa 0%, #ffffff 40%, #ffffff 60%, #aaaaaa 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaaaaa), color-stop(40%, #ffffff), color-stop(60%, #ffffff), color-stop(100%, #aaaaaa));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #aaaaaa 0%, #ffffff 40%, #ffffff 60%, #aaaaaa 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #aaaaaa 0%, #ffffff 40%, #ffffff 60%, #aaaaaa 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #aaaaaa 0%, #ffffff 40%, #ffffff 60%, #aaaaaa 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #aaaaaa 0%, #ffffff 40%, #ffffff 60%, #aaaaaa 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#aaaaaa', GradientType=0);
+    /* IE6-9 */
+}
+
+.credDownload p {
+    color: black;
+}
+
+.credit-p {
+    margin-top: 30px;
+}
+
+.quickLinks {
+    position: relative;
+    top: 80px;
+    margin: 0 80px;
+    background: rgba(204, 204, 204, 0.6);
+    overflow: hidden;
+    /*  BREAKS AT WIDTH < 588 PX  */
+}
+
+.quickLinks h2 {
+    padding: 20px 80px 20px;
+    color: #002571;
+}
+
+.brandLinks {
+    float: left;
+    margin: 0 7% 20px 12%;
+}
+
+.prodLinks {
+    float: right;
+    margin: 0 12% 40px 7%;
+}
+
+.prodLinks h3,
+.brandLinks h3 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    font-size: 1.4em;
+    color: #002571;
+}
+
+.prodLinks ul,
+.brandLinks ul {
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.prodLinks a,
+.brandLinks a,
+.prodLinks a:visited,
+.brandLinks a:visited {
+    text-decoration: none;
+    color: #002571;
+}
+
+.products {
+    clear: both;
+}
+
+.products h2,
+.brands h2 {
+    padding: 10px 45px 0px;
+}
+
+.imageC {
+    float: left;
+    width: 210px;
+    margin: 40px 45px;
+}
+
+.image {
+    box-sizing: border-box;
+    width: 210px;
+    height: 210px;
+    background: white;
+    border: 1px solid black;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.image img {
+    width: 206px;
+    margin-left: 1px;
+}
+
+.caption {
+    box-sizing: border-box;
+    height: 40px;
+    background: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.caption1 {
+    display: none;
+}
+/*  Footer Styles Here  */
+
+.pageFooter {
+    margin: 0 auto 40px;
+    width: 900px;
+    overflow: hidden;
+    background: #999;
+    border: 2px solid lightgray;
+    border-top: none;
+}
+
+.copyright {
+    float: left;
+    margin-left: 10px;
+    line-height: 70px;
+}
+
+.phone {
+    float: left;
+    margin-left: 150px;
+    line-height: 70px;
+}
+
+.FBLogo {
+    float: right;
+    margin: 10px;
+}
+/*  Media Queries  */
+
+@media only screen and (max-width: 900px) and (min-width: 769px) {
+    .contentBody {
+        width: 100%;
+    }
+    .mainNav {
+        max-width: 600px;
+    }
+    .mainNav-ul li {
+        font-size: 1.1em;
+        margin: 0 5px;
+    }
+    .pageFooter {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .imageC {
+        margin: 40px 90px 40px 90px;
+    }
+}
+/*  Tablet Styles  */
+
+@media only screen and (max-width: 768px) and (min-width: 550px) {
+    .contentBody {
+        width: 100%;
+    }
+    .mainNav {
+        display: none;
+    }
+    .mobileNav {
+        display: block;
+        position: absolute;
+        left: 300px;
+        float: right;
+        margin-top: 31px;
+        margin-bottom: 500px;
+        height: 42.5px;
+        width: 70%;
+        background: #9d9ea5;
+        /* Old browsers */
+
+        background: -moz-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+        /* FF3.6+ */
+
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #9d9ea5), color-stop(5%, #7c7e84), color-stop(9%, #747577), color-stop(13%, #6e6f72), color-stop(15%, #717375), color-stop(19%, #7e7e82), color-stop(29%, #a4a5a5), color-stop(34%, #bcbcbc), color-stop(38%, #a6a9ad), color-stop(42%, #9b9ca0), color-stop(52%, #757577), color-stop(65%, #464749), color-stop(69%, #3e3f3f), color-stop(79%, #2c2d30), color-stop(88%, #1a1c1b), color-stop(94%, #3b3a3d), color-stop(98%, #62626b));
+        /* Chrome,Safari4+ */
+
+        background: -webkit-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+        /* Chrome10+,Safari5.1+ */
+
+        background: -o-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+        /* Opera 11.10+ */
+
+        background: -ms-linear-gradient(top, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+        /* IE10+ */
+
+        background: linear-gradient(to bottom, #9d9ea5 2%, #7c7e84 5%, #747577 9%, #6e6f72 13%, #717375 15%, #7e7e82 19%, #a4a5a5 29%, #bcbcbc 34%, #a6a9ad 38%, #9b9ca0 42%, #757577 52%, #464749 65%, #3e3f3f 69%, #2c2d30 79%, #1a1c1b 88%, #3b3a3d 94%, #62626b 98%);
+        /* W3C */
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9d9ea5', endColorstr='#62626b', GradientType=0);
+    /* IE6-9 */
+    }
+    form {
+        margin-left: 30px;
+        padding: 9px;
+        height: 25px;
+    }
+    select, option {
+        font-family: inherit;
+        font-size: 100%;
+        box-sizing: border-box;
+        height: 30px;
+    }
+    .indexBanner h1 {
+        font-size: 2.3em;
+    }
+    .indexBanner h3 {
+        font-size: 1.5em;
+    }
+    .about_intro, .services, .storeHours, .storeLocation, .phoneContact {
+        padding: 40px 40px 0 40px;
+    }
+    .policies {
+        padding: 40px;
+    }
+    .rightList, .leftList {
+        float: none;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    .leftList {
+        padding: 20px 0 0 20px;
+    }
+    .rightList {
+        padding: 0 0 20px 20px;
+    }
+    .quickLinks {
+        margin: 0 20px;
+    }
+    .quickLinks h2 {
+        padding: 20px;
+    }
+    .brandLinks {
+        margin: 0 3% 20px 8%;
+    }
+    .prodLinks {
+        margin: 0 8% 40px 3%;
+    }
+    .imageC {
+        margin: 40px 40px
+    }
+    .pageFooter {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .phone {
+        margin-left: 60px;
+        line-height: 70px;
+    }
+}
+/*  smartphone Styles  */
+
+@media only screen and (max-width: 549px) {}

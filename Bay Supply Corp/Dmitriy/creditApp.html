@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width">
-    <title>Contact Us</title>
-    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <title>Credit Application</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <header class="pageHeader">
-    <a href="index.html"><img class="logo" src="../Images/google_drive_images/pipesignpng.png"/></a>
+    <a href="/"><img class="logo" src="images/pipesignpng.png"/></a>
     <nav class="mainNav">
         <ul class="mainNav-ul">
             <a href="about.html"><li>About Us</li></a>
@@ -16,6 +16,17 @@
             <a href="contact.html"><li>Contact Us</li></a>
             <a href="creditApp.html"><li>Credit Application</li></a>
         </ul>
+    </nav>
+    <nav class="mobileNav">
+        <form action="../">
+            <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                <option value="">Choose a Destination</option>
+                <option value="about.html">About Us</option>
+                <option value="products.html">Products</option>
+                <option value="contact.html">Contact Us</option>
+                <option value="creditApp.html">Credit Application</option>
+            </select>
+        </form>
     </nav>
 </header>
 <section class="contentBody">
@@ -31,7 +42,7 @@
 <footer class="pageFooter">
     <div class="copyright">Copyright &copy; 2015 Bay Supply Corp</div>
     <div class="phone">&#40;718&#41; 965 - 9000</div>
-    <a href="https://www.facebook.com/baysupplycorp" target="_blank"><img class="FBLogo" src="../Images/FB-f-Logo__blue_50.png" /></a>
+    <a href="https://www.facebook.com/baysupplycorp" target="_blank"><img class="FBLogo" src="images/FB-f-Logo__blue_50.png" /></a>
 </footer>
 </body>
 

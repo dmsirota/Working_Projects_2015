@@ -1,52 +1,78 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <title>About Us</title>
-    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<header class="pageHeader">
-    <a href="index.html"><img class="logo" src="../Images/google_drive_images/pipesignpng.png"/></a>
-    <nav class="mainNav">
-        <ul class="mainNav-ul">
-            <a href="about.html"><li>About Us</li></a>
-            <a href="products.html"><li>Products</li></a>
-            <a href="contact.html"><li>Contact Us</li></a>
-            <a href="creditApp.html"><li>Credit Application</li></a>
-        </ul>
+    <header class="pageHeader">
+        <a href="/"><img class="logo" src="Images/pipesignpng.png" />
+        </a>
+        <nav class="mainNav">
+            <ul class="mainNav-ul">
+                <a href="about.html">
+                    <li>About Us</li>
+                </a>
+                <a href="products.html">
+                    <li>Products</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact Us</li>
+                </a>
+                <a href="creditApp.html">
+                    <li>Credit Application</li>
+                </a>
+            </ul>
+        </nav>
+        <nav class="mobileNav">
+        <form action="../">
+            <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                <option value="">Choose a Destination</option>
+                <option value="about.html">About Us</option>
+                <option value="products.html">Products</option>
+                <option value="contact.html">Contact Us</option>
+                <option value="creditApp.html">Credit Application</option>
+            </select>
+        </form>
     </nav>
-</header>
-<section class="contentBody">
-    <div class=" banner aboutBanner"><!-- Background Image --></div>
-    <section class="about_intro">
-        <p><span class="nameAccent">Bay Supply Corporation</span> has proudly supplied the Metropolitan Area with plumbing, heating, and electrical material for over 10 years.</p> 
-        <p>Whether you are changing a faucet or require cast iron pipes for new construction – Bay Supply has you covered. We carry brand names such as <span class="brandAccent">A.O Smith, Honeywell, Delta, Gerber,</span> and numerous others.</p>
-        <p>If you are working in the industry, we are here at your convenience.</p>
+    </header>
+    <section class="contentBody">
+        <div class=" banner aboutBanner">
+            <!-- Background Image -->
+        </div>
+        <section class="about_intro">
+            <p><span class="nameAccent">Bay Supply Corporation</span> has proudly supplied the Metropolitan Area with plumbing, heating, and electrical material for over 10 years.</p>
+            <p>Whether you are changing a faucet or require cast iron pipes for new construction – Bay Supply has you covered. We carry brand names such as <span class="brandAccent">A.O Smith, Honeywell, Delta, Gerber,</span> and numerous others.</p>
+            <p>If you are working in the industry, we are here at your convenience.</p>
+        </section>
+        <section class="services">
+            <h2>Services</h2>
+            <ul class="serviceList">
+                <li>We deliver throughout the Metropolitan free of charge.</li>
+                <li>We cut, thread and groove pipes and nipples up to 4” steel and 3” galvanized.</li>
+                <li>7 Days a week you can email your quotes to order@baysupplycorp.com and our sales team will reply with a quote.</li>
+                <li>Through a standard approval procedure it is possible to set up a credit account as well as automated invoice email notifications upon your request.
+                </li>
+            </ul>
+        </section>
+        <section class="policies">
+            <h2>Store Policies</h2>
+            <p><span class="policyName">Delivery Policy:</span> Delivery is free throughout the NYC area, excluding Staten Island – for which the toll expense will be charged. A curb side delivery policy will be in effect if our vehicle cannot be legally parked. Our drivers are ready to help you unload – as long as there is no risk of parking tickets.</p>
+            <p><span class="policyName">Account Credit Policy:</span> If you or your company wish to open an account with us, a credit form must be filled out. 30 – 60 Day accounts are standard, and credit lines vary depending on your references and payment promptness.</p>
+            <p><span class="policyName">Returns</span> – No returns are allowed for controls. All other material is returnable as long as the receipt is presented.</p>
+        </section>
     </section>
-    <section class="services">
-        <h2>Services</h2>
-        <ul class="serviceList">
-            <li>We deliver throughout the Metropolitan free of charge.</li>
-            <li>We cut, thread and groove pipes and nipples up to 4” steel and 3” galvanized.</li>
-            <li>7 Days a week you can email your quotes to <!-- Turn this into an email link --> order@baysupplycorp.com and our sales team will reply with a quote in reasonable time.             </li>
-            <li>Through a standard approval procedure it is possible to set up a credit account as well as automated invoice email notifications                   upon your request
-            </li>
-        </ul>
-    </section>
-    <section class="policies">
-        <h2>Store Policies</h2>
-        <p><span class="policyName">Delivery Policy:</span> Delivery is free throughout the NYC area, excluding Staten Island – for which the toll expense will be charged. A curb side delivery policy will be in effect if our vehicle cannot be legally parked. Our drivers are ready to help you unload – as long as there is no risk of parking tickets.</p>
-        <p><span class="policyName">Account Credit Policy:</span> If you or your company wish to open an account with us, a credit form must be filled out. 30 – 60 Day accounts are standard, and credit lines vary depending on your references and payment promptness.</p>
-        <p><span class="policyName">Returns</span> – No returns are allowed for controls. All other material is returnable as long as the receipt is presented.</p>
-    </section>
-</section>
-    
-<footer class="pageFooter">
-    <div class="copyright">Copyright &copy; 2015 Bay Supply Corp</div>
-    <div class="phone">&#40;718&#41; 965 - 9000</div>
-    <a href="https://www.facebook.com/baysupplycorp" target="_blank"><img class="FBLogo" src="../Images/FB-f-Logo__blue_50.png" /></a>
-</footer>
+
+    <footer class="pageFooter">
+        <div class="copyright">Copyright &copy; 2015 Bay Supply Corp</div>
+        <div class="phone">&#40;718&#41; 965 - 9000</div>
+        <a href="https://www.facebook.com/baysupplycorp" target="_blank"><img class="FBLogo" src="images/FB-f-Logo__blue_50.png" />
+        </a>
+    </footer>
 </body>
+
 </html>
