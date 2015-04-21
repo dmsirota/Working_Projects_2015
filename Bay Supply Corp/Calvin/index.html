@@ -9,7 +9,7 @@
 <body>
 <header class="pageHeader">
     <div class="navBar">
-        <a href="index.html"><img class="logo" src="../Images/google_drive_images/pipesignpng.png"/></a>
+        <a href="index.html"><img class="logo" src="images/pipesignpng.png"/></a>
         <nav class="mainNav">
         <ul class="mainNav-ul">
             <a href="creditApp.html"><li>Credit Application</li></a>
@@ -17,28 +17,36 @@
             <a href="products.html"><li>Products</li></a>
             <a href="about.html"><li>About Us</li></a>
         </ul>
-        </nav>  
+        </nav> 
+        
+        <!--Drop-Down Menu-->
+        <nav class="mobileNav">
+        <form action="../">
+            <select onchange="window.open(this.options[this.selectedIndex].value,'_top')">
+                <option value="">Choose a Destination</option>
+                <option value="about.html">About Us</option>
+                <option value="products.html">Products</option>
+                <option value="contact.html">Contact Us</option>
+                <option value="creditApp.html">Credit Application</option>
+            </select>
+        </form>
+        </nav>
     </div>
 </header>
 <section class="contentBody">
-    <div class="banner indexBanner">
-        <div class="bannerText">
-            <h1>Welcome to <span class="siteName">Bay Supply Corporation!</span></h1>
-            <h3>We'll make your job easier.</h3>
-        </div>
-    </div>
+    <div class="banner indexBanner"></div>
     <section class="welcome">
         <h2>Our Store</h2>
-        <p>Various brand name tools and accessories are in stock for all your contractor needs. In addition, an assortment of fittings and pipes, both domestic and import, are available for purchase to make sure we are your one-stop shop. View our <a href="products.html">Products Page</a> to see all the <a href="products.html#brands">brands</a> and <a href="products.html#products">products</a> we carry.</p>
+        <p class="introPar">For your convenience, Bay Supply Corporation is open 7 days a week!</p>
+        <p>Various brand name tools and accessories are in stock for all your contractor/homeowner needs. In addition, an assortment of fittings and pipes, both domestic and import, are available for purchase to make sure we are your one-stop shop. View our <a href="products.html">Products Page</a> to see all the <a href="products.html#brands">brands</a> and <a href="products.html#products">products</a> we carry.</p>
         <p>Our location, hours of operation, phone number, and extensions are all available on our <a href="contact.html">Contact Page.</a> Stop by our store to see full inventory and receive our amazing customer service.</p>
-    
     </section>
 </section>
     
 <footer class="pageFooter">
     <div class="copyright">Copyright &copy; 2015 Bay Supply Corp</div>
     <div class="phone">&#40;718&#41; 965 - 9000</div>
-    <a href="https://www.facebook.com/baysupplycorp" target="_blank"><img class="FBLogo" src="../Images/FB-f-Logo__blue_50.png" /></a>
+    <a href="https://www.facebook.com/baysupplycorp" target="_blank"><img class="FBLogo" src="images/FB-f-Logo__blue_50.png" /></a>
 </footer>
 </body>
 
