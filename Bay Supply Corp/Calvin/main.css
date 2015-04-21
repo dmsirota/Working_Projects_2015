@@ -507,12 +507,12 @@ a:visited {
     }
     
     /* Products Page */
-    .brands > section > div:nth-child(2n) {
+    .brands .imageC:nth-child(2n) {
         float: right;
     }
-    .products > section > div:nth-child(2n) {
+    .products .imageC:nth-child(2n) {
         float: right;
-    }   
+    }
     
 }
 
@@ -568,12 +568,12 @@ a:visited {
     }
     
     /* Products Page */
-    .brands > section > div:nth-child(2n) {
+    .brands .imageC:nth-child(2n) {
         float: right;
     }
-    .products > section > div:nth-child(2n) {
+    .products .imageC:nth-child(2n) {
         float: right;
-    } 
+    }
     
     /* Contact Page */
     .leftList {
@@ -724,10 +724,10 @@ a:visited {
     .imageC {
         float: none;
     }
-    .brands > section > div {
+    .brands .imageC {
         margin: 10px auto;
     }
-    .products > section > div {
+    .products .imageC {
        margin: 10px auto;
     } 
     
@@ -880,10 +880,10 @@ a:visited {
     .imageC {
         float: none;
     }
-    .brands > section > div {
+    .brands .imageC {
         margin: 10px auto;
     }
-    .products > section > div {
+    .products .imageC {
        margin: 10px auto;
     } 
     
